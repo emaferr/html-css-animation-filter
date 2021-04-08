@@ -152,9 +152,62 @@
 }
 /* end Exercise number 7 */
 
+/* Exercise number 8 */
+.ex-8-img{
+    transition: all 2s;
+    cursor: pointer;
+}
 
+.ex-8-img:hover{
+    filter: drop-shadow(10px 10px 20px #000000) grayscale(1);
+    border-radius: 2rem;
+}
+/* end Exercise number 8 */
 
+/* Exercise number 9 */
+.ex-9-img{
+    transition: all 2s;
+    cursor: pointer;
+}
 
+.ex-9-img:hover{
+    transform: scale(1.2);
+    filter: hue-rotate(45deg) drop-shadow(10px 10px 20px #03bb5caa);
+    border-radius: 2rem;
+}
+/* end Exercise number 9 */
+
+/* Exercise number 10 */
+.ex-10-icon{
+    cursor: pointer;
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(-360deg);
+    }
+}
+/* end Exercise number 10 */
+
+/* Exercise number 11 */
+.ex-11-icon{
+    cursor: pointer;
+    animation: spin_75 2s linear infinite;
+}
+
+@keyframes spin_75 {
+    0% {
+        transform: rotate(0);
+    }
+    75% {
+        transform: rotate(270deg);
+
+    }
+    100% {
+        transform: rotate(0);
+    }
+/* end Exercise number 10 */
 
 /**************************************************** 
            * end Conduct of exercise *
