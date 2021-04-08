@@ -75,15 +75,61 @@
 /* Exercise number 1 */
 .ex-1-square{
     transition: all 2s;
+    cursor: pointer;
 }
 
 .ex-1-square:hover{
-    cursor: pointer;
     background-color: #ff0000;
 }
-
 /* end Exercise number 1 */
 
+/* Exercise number 2 */
+.ex-2-square{
+    transition: all 2s;
+    cursor: pointer;
+}
+
+.ex-2-square:active{
+    width: 100%;
+}
+/* end Exercise number 2 */
+
+/* Exercise number 3 */
+.ex-3-square{
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+/* end Exercise number 3 */
+
+/* Exercise number 4 */
+.ex-4-square{
+    transition: all 1.5s;
+    cursor: pointer;
+}
+
+.ex-4-square:hover{
+    opacity: 0;
+}
+/* end Exercise number 4 */
+
+/* Exercise number 5 */
+.ex-5-square{
+    transition: all 1.5s;
+    cursor: pointer;
+}
+
+.ex-5-square:hover{
+    transform: scale(2);
+}
+
+.ex-5-square:active{
+    transform: scale(.5);
+}
+/* end Exercise number 5 */
 
 
 
