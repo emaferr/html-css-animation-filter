@@ -131,6 +131,26 @@
 }
 /* end Exercise number 5 */
 
+/* Exercise number 6 */
+.ex-6-img{
+    cursor: pointer;
+}
+
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+/* end Exercise number 6 */
+
+/* Exercise number 7 */
+.ex-7-img{
+    transition: all 2s;
+    cursor: pointer;
+}
+
+.ex-7-img:hover{
+    filter: sepia(100%) blur(5px);
+}
+/* end Exercise number 7 */
 
 
 
